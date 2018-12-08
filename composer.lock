@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "8fa6a4fbb13e80455cd18eb9707d02cc",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1179,6 +1179,43 @@
                 "psr-3"
             ],
             "time": "2018-11-05T09:00:11+00:00"
+        },
+        {
+            "name": "naux/sendcloud",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NauxLiu/Laravel-SendCloud.git",
+                "reference": "9981bdc8b5013029f99930ed2947bfc99343a74f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NauxLiu/Laravel-SendCloud/zipball/9981bdc8b5013029f99930ed2947bfc99343a74f",
+                "reference": "9981bdc8b5013029f99930ed2947bfc99343a74f",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "illuminate/support": "^5.5",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Naux\\Mail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NauxLiu",
+                    "email": "nauxliu@gmail.com"
+                }
+            ],
+            "time": "2017-10-08T04:13:14+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -4191,16 +4228,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.4.5",
+            "version": "7.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102"
+                "reference": "520723129e2b3fc1dc4c0953e43c9d40e1ecb352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
-                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
+                "reference": "520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
                 "shasum": ""
             },
             "require": {
@@ -4245,7 +4282,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.4-dev"
+                    "dev-master": "7.5-dev"
                 }
             },
             "autoload": {
@@ -4271,7 +4308,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-12-03T05:01:24+00:00"
+            "time": "2018-12-07T07:08:12+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

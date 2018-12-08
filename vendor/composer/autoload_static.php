@@ -94,6 +94,7 @@ class ComposerStaticInit2436d623d6d1d4d5d8f39e16ab70cd92
         array (
             'NunoMaduro\\Collision\\' => 21,
             'Nexmo\\' => 6,
+            'Naux\\Mail\\' => 10,
         ),
         'M' => 
         array (
@@ -287,6 +288,10 @@ class ComposerStaticInit2436d623d6d1d4d5d8f39e16ab70cd92
         'Nexmo\\' => 
         array (
             0 => __DIR__ . '/..' . '/nexmo/client/src',
+        ),
+        'Naux\\Mail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/naux/sendcloud/src',
         ),
         'Monolog\\' => 
         array (
@@ -2230,6 +2235,10 @@ class ComposerStaticInit2436d623d6d1d4d5d8f39e16ab70cd92
         'Monolog\\ResettableInterface' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ResettableInterface.php',
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'Naux\\Mail\\SendCloudException' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudException.php',
+        'Naux\\Mail\\SendCloudServiceProvider' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudServiceProvider.php',
+        'Naux\\Mail\\SendCloudTemplate' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudTemplate.php',
+        'Naux\\Mail\\SendCloudTransport' => __DIR__ . '/..' . '/naux/sendcloud/src/SendCloudTransport.php',
         'Nexmo\\Account\\Balance' => __DIR__ . '/..' . '/nexmo/client/src/Account/Balance.php',
         'Nexmo\\Account\\Client' => __DIR__ . '/..' . '/nexmo/client/src/Account/Client.php',
         'Nexmo\\Account\\Price' => __DIR__ . '/..' . '/nexmo/client/src/Account/Price.php',
@@ -2512,6 +2521,7 @@ class ComposerStaticInit2436d623d6d1d4d5d8f39e16ab70cd92
         'PHPUnit\\Runner\\AfterSuccessfulTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterSuccessfulTestHook.php',
         'PHPUnit\\Runner\\AfterTestErrorHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestErrorHook.php',
         'PHPUnit\\Runner\\AfterTestFailureHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestFailureHook.php',
+        'PHPUnit\\Runner\\AfterTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestHook.php',
         'PHPUnit\\Runner\\AfterTestWarningHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/AfterTestWarningHook.php',
         'PHPUnit\\Runner\\BaseTestRunner' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/BaseTestRunner.php',
         'PHPUnit\\Runner\\BeforeFirstTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/BeforeFirstTestHook.php',
