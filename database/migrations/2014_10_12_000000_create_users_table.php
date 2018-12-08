@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('avatar')->comment('图像');
             $table->string('confirmation_token')->comment('邮箱验证字段');
-            $table->smallInteger('is_active')->comment('是否激活了邮箱');
+            $table->smallInteger('is_active')->default(0)->comment('是否激活了邮箱');
             $table->integer('questions_count')->default(0)->comment('问题数');
             $table->integer('answers_count')->default(0)->comment('回答数');
             $table->integer('comments_count')->default(0)->comment('评论数');
