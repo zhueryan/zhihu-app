@@ -77,7 +77,7 @@ class RegisterController extends Controller
         try{
             $this->sendVerifyEmailTo($user);
         }catch(\Exception $e){
-            User::destroy($user->id);
+//            User::destroy($user->id);
             return $user;
         }
 
