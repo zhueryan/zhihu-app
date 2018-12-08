@@ -78,10 +78,16 @@ class RegisterController extends Controller
             $this->sendVerifyEmailTo($user);
         }catch(\Exception $e){
 //            User::destroy($user->id);
+        }finally{
+            $user = User::find($user->id);
+            $user->is_active = 1;
+            $user->confirmation_token = str_random(40);
+            $user->save();
             return $user;
         }
 
-        return $user;
+
+
     }
 
     /*发送邮件验证*/
